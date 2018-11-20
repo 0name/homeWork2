@@ -15,16 +15,22 @@ public class Utils {
          */
         System.out.println("task1");
         int array[] = new int[10];
-        for (int i=0; i<1; i++){
-            for (int j=2; j<=20; j+=2){
-                array[i]=j;
-                System.out.print(array[i] + " ");
-            }
+        for (int i=0; i<10; i++) {
+            array[i] = 2*i+2;
+            System.out.print(array[i] + " ");
         }
+//            for (int j=2; j<=20; j+=2){
+//
+//            }
+//            System.out.print(array[i] + " ");
+
         System.out.println();
-        for (int i=0; i<array.length; i++){
-            System.out.println(array[i]);
+//        for (int i: array){
+//            System.out.print(i+" ");
+//        }
+
+        for (int i: array){
+            System.out.println(i+" ");
         }
-                                                                                                                                     System.out.print(Arrays.toString(array));
     }
 }
