@@ -19,15 +19,7 @@ public class Utils {
             array[i] = 2*i+2;
             System.out.print(array[i] + " ");
         }
-//            for (int j=2; j<=20; j+=2){
-//
-//            }
-//            System.out.print(array[i] + " ");
-
         System.out.println();
-//        for (int i: array){
-//            System.out.print(i+" ");
-//        }
 
         for (int i: array){
             System.out.println(i+" ");
@@ -41,8 +33,14 @@ public class Utils {
      */
     static void task2(){
         System.out.println("task2");
-        for(int i=0; i<100; i++){
-
+        int [] mas = new int[50];
+        for(int i=0; i<mas.length; i++){
+            mas[i] = i*2+1;
+            System.out.print(mas[i] + " ");
+        }
+        System.out.println();
+        for(int i=mas.length; i>0 ; i--){
+            System.out.print(mas[i-1] + " ");
         }
     }
 }
